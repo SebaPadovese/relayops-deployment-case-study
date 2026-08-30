@@ -1,5 +1,7 @@
 # RelayOps Evidence Repository
 
+[![Verification](https://github.com/SebaPadovese/relayops-deployment-case-study/actions/workflows/verify.yml/badge.svg)](https://github.com/SebaPadovese/relayops-deployment-case-study/actions/workflows/verify.yml)
+
 RelayOps is an independent implementation simulation for an AI-assisted, multi-site public-service workflow. It demonstrates the delivery discipline behind an implementation: discovery, requirements, routing, governance, UAT, training, staged rollout, go-live criteria, and measurement.
 
 The scenario is fictional. The operating judgment is grounded in Sebastian Padovese's real experience across public-facing cultural sites. This repository does **not** represent a client engagement, production deployment, API integration, live user base, validated NLP model, or achieved ROI.
@@ -13,7 +15,7 @@ python -m unittest discover -s tests -v
 PYTHONPATH=src python -m relayops.cli data/uat_cases.json
 ```
 
-No third-party dependencies are required.
+No third-party dependencies are required. GitHub Actions repeats the compilation, acceptance-test, and multilingual UAT checks on Python 3.10, 3.12, and 3.13 for every push and pull request.
 
 ## Evidence map
 
