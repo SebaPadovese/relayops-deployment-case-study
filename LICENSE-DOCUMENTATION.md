@@ -13,5 +13,5 @@ applied that prevent others from exercising the rights granted by the license.
 The full legal code is available at:
 https://creativecommons.org/licenses/by-nc/4.0/legalcode
 
-This license applies to `README.md`, `docs/`, and `data/`. Source code and
-automated tests are licensed separately under `LICENSE-CODE`.
+This license applies to `README.md`, `docs/`, `data/`, and `portfolio/`.
+Source code and automated tests are licensed separately under `LICENSE-CODE`.

@@ -4,6 +4,8 @@
 
 RelayOps is an independent implementation simulation for an AI-assisted, multi-site public-service workflow. It demonstrates the delivery discipline behind an implementation: discovery, requirements, routing, governance, UAT, training, staged rollout, go-live criteria, and measurement.
 
+**[Read the complete six-page case study (PDF)](portfolio/RelayOps_Deployment_Case_Study_Sebastian_Padovese.pdf)**
+
 The scenario is fictional. The operating judgment is grounded in Sebastian Padovese's real experience across public-facing cultural sites. This repository does **not** represent a client engagement, production deployment, API integration, live user base, validated NLP model, or achieved ROI.
 
 ## What is executable
@@ -37,6 +39,7 @@ AI may reduce intake friction by summarizing, translating, or suggesting a categ
 ```text
 data/                 Structured multilingual UAT cases
 docs/                 Requirements, governance, rollout, risks and boundaries
+portfolio/            Presentation-ready case study
 src/relayops/         Executable routing prototype and CLI
 tests/                Automated acceptance tests
 ```
@@ -46,7 +49,7 @@ tests/                Automated acceptance tests
 Licensing is separated by artifact type:
 
 - Source code in `src/` and automated tests in `tests/` are available under the MIT License in [`LICENSE-CODE`](LICENSE-CODE).
-- Documentation, repository narrative, and UAT data are available under CC BY-NC 4.0 in [`LICENSE-DOCUMENTATION.md`](LICENSE-DOCUMENTATION.md).
+- Documentation, repository narrative, portfolio PDF, and UAT data are available under CC BY-NC 4.0 in [`LICENSE-DOCUMENTATION.md`](LICENSE-DOCUMENTATION.md).
 
 ## Portfolio use
 
