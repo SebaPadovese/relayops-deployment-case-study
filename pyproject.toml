@@ -1,0 +1,13 @@
+[project]
+name = "relayops-evidence"
+version = "1.0.0"
+description = "Deterministic routing prototype and implementation evidence for RelayOps"
+requires-python = ">=3.10"
+authors = [{ name = "Sebastian Padovese" }]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
